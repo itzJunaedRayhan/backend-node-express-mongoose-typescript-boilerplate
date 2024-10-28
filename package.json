@@ -10,8 +10,11 @@
         "lint:fix": "eslint --fix .",
         "prettier:check": "prettier . --check || true",
         "prettier:fix": "yarn prettier . --write",
-        "lint-prettier": "run-s prettier:check prettier:fix lint:check lint:fix",
+        "lint-prettier": "run-s prettier:check prettier:fix lint:check lint:fix --",
         "prepare": "husky"
+    },
+    "lint-staged": {
+        "src/**/*.ts": "yarn lint-prettier"
     },
     "author": "itzJunaedRayhan",
     "license": "ISC",
@@ -22,6 +25,7 @@
         "eslint": "^9.13.0",
         "globals": "^15.11.0",
         "husky": "^9.1.6",
+        "lint-staged": "^15.2.10",
         "npm-run-all": "^4.1.5",
         "prettier": "3.3.3",
         "ts-node-dev": "^2.0.0",

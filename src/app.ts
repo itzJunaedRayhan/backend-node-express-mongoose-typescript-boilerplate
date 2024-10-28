@@ -12,7 +12,7 @@ app.use(cookieParser());
 
 //  Testing routes:
 app.get('/', (req: Request, res: Response) => {
-    res.send('Working Successfully...');
+  res.send('Working Successfully...');
 });
 
 //  Application Routes:
@@ -23,16 +23,16 @@ app.use(globalErrorHandler);
 
 //  Handle Not Found:
 app.use((req: Request, res: Response) => {
-    res.status(404).json({
-        success: false,
-        message: 'Not Found',
-        errorMessages: [
-            {
-                path: req.originalUrl,
-                message: 'Api Not Found',
-            },
-        ],
-    });
+  res.status(404).json({
+    success: false,
+    message: 'Not Found',
+    errorMessages: [
+      {
+        path: req.originalUrl,
+        message: 'Api Not Found',
+      },
+    ],
+  });
 });
 
 export default app;
