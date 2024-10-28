@@ -13,9 +13,6 @@
         "lint-prettier": "run-s prettier:check prettier:fix lint:check lint:fix",
         "prepare": "husky"
     },
-    "lint-staged": {
-      "src/**/*.ts": "yarn lint-prettier"
-    },
     "author": "itzJunaedRayhan",
     "license": "ISC",
     "devDependencies": {
