@@ -1,8 +1,11 @@
 # Node Mongo Express Boilerplate
+
 A Node.js, MongoDB, and Express boilerplate project using TypeScript. This boilerplate sets up a basic application structure with essential packages and configurations to help you get started quickly.
 
 ## Features
+
 - **Core Dependencies**:
+
   - `express` (v4.21.1): A minimal and flexible Node.js web application framework.
   - `mongoose` (v8.7.3): A MongoDB object modeling tool for Node.js.
   - `dotenv` (v16.4.5): Loads environment variables from a `.env` file into `process.env`.
@@ -22,12 +25,14 @@ A Node.js, MongoDB, and Express boilerplate project using TypeScript. This boile
 ## Installation
 
 1. Clone the repository:
+
    ```bash
    git clone https://github.com/itzJunaedRayhan/backend-node-express-mongoose-typescript-boilerplate.git
    cd backend-node-express-mongoose-typescript-boilerplate
    ```
 
 2. Install dependencies using Yarn:
+
    ```bash
    yarn install
    ```
@@ -52,23 +57,24 @@ This command will run the server using `ts-node-dev`, which watches for file cha
 
 Here are some helpful scripts you can run:
 
-- **Start the server**: 
+- **Start the server**:
   ```bash
   yarn start
   ```
-- **Check for linting errors**: 
+- **Check for linting errors**:
   ```bash
   yarn lint:check
   ```
-- **Fix linting errors**: 
+- **Fix linting errors**:
   ```bash
   yarn lint:fix
   ```
-- **Check formatting with Prettier**: 
+- **Check formatting with Prettier**:
   ```bash
   yarn prettier:check
   ```
-- **Fix formatting issues**: 
+- **Fix formatting issues**:
+
   ```bash
   yarn prettier:fix
   ```
