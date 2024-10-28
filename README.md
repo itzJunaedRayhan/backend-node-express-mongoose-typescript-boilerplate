@@ -23,8 +23,8 @@ A Node.js, MongoDB, and Express boilerplate project using TypeScript. This boile
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/username/node-mongo-express-boilerplate.git
-   cd node-mongo-express-boilerplate
+   git clone https://github.com/itzJunaedRayhan/backend-node-express-mongoose-typescript-boilerplate.git
+   cd backend-node-express-mongoose-typescript-boilerplate
    ```
 
 2. Install dependencies using Yarn:
@@ -35,7 +35,7 @@ A Node.js, MongoDB, and Express boilerplate project using TypeScript. This boile
 3. Create a `.env` file in the root directory and add your environment variables. Here’s an example:
    ```env
    PORT=5000
-   MONGODB_URI=mongodb://localhost:27017/mydatabase
+   MONGODB_URI= DATABASE_URL = mongodb+srv://USER_NAME:PASSWORD@cluster0.458y6.mongodb.net/DATABASE_NAME?retryWrites=true&w=majority&appName=Cluster0
    ```
 
 ## Usage
